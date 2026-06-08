@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Nadine</title>
+  <meta name="description" content="A selection of web development projects by Nadine." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Nadine<span>.codes</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="muted" style="max-width:60ch;">
+        Here are some of the projects I've built while learning and practicing
+        web development. Each one helped me sharpen a different skill — from
+        layout and styling to interactivity and deployment.
+      </p>
+
+      <div class="grid grid-2" style="margin-top:30px;">
+        <!-- Project 1 -->
+        <article class="card">
+          <h3>Personal Portfolio Website</h3>
+          <p class="muted">
+            This very site! A responsive, multi-page portfolio built from scratch
+            with semantic HTML, custom CSS, and JavaScript, then deployed live
+            with GitHub Pages.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">GitHub Pages</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/nadine-codes/nadine-codes.github.io" target="_blank" rel="noopener">Source Code ↗</a>
+            <a href="https://nadine-codes.github.io" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <h3>Responsive Landing Page</h3>
+          <p class="muted">
+            A modern, mobile-first landing page focused on clean typography,
+            flexible grid layouts, and smooth hover interactions.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">Source Code ↗</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card">
+          <h3>Interactive To-Do App</h3>
+          <p class="muted">
+            A simple task manager that lets users add, complete, and delete
+            tasks. Built to practice DOM manipulation and event handling with
+            vanilla JavaScript.
+          </p>
+          <div class="tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">DOM</span>
+            <span class="tag">LocalStorage</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">Source Code ↗</a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="card">
+          <h3>Recipe / Content Page</h3>
+          <p class="muted">
+            A content-rich page demonstrating semantic structure, accessible
+            images, and a clean reading layout — practicing the fundamentals of
+            good web design.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Accessibility</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">Source Code ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="muted center" style="margin-top:36px;">
+        Want to see more? Check out my
+        <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">GitHub profile ↗</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Nadine. Built with HTML, CSS &amp; JavaScript.</span>
+      <span>
+        <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">GitHub</a> •
+        <a href="mailto:astroam3@gmail.com">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Nadine</title>
+  <meta name="description" content="Get in touch with Nadine — email, GitHub, and a contact form." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Nadine<span>.codes</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="muted" style="max-width:60ch;">
+        I'm always open to new opportunities, collaborations, or just a friendly
+        hello. Feel free to reach out through any of the channels below or send
+        me a message directly.
+      </p>
+
+      <div class="contact-grid" style="margin-top:30px;">
+        <!-- Contact details -->
+        <div>
+          <ul class="contact-list">
+            <li>
+              <span class="ico">📧</span>
+              <span><strong>Email</strong><br />
+                <a href="mailto:astroam3@gmail.com">astroam3@gmail.com</a></span>
+            </li>
+            <li>
+              <span class="ico">💻</span>
+              <span><strong>GitHub</strong><br />
+                <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">github.com/nadine-codes</a></span>
+            </li>
+            <li>
+              <span class="ico">🌐</span>
+              <span><strong>Website</strong><br />
+                <a href="https://nadine-codes.github.io" target="_blank" rel="noopener">nadine-codes.github.io</a></span>
+            </li>
+            <li>
+              <span class="ico">📍</span>
+              <span><strong>Location</strong><br />
+                Available for remote opportunities</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact form -->
+        <div>
+          <form id="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Say hello..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note" id="form-note"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Nadine. Built with HTML, CSS &amp; JavaScript.</span>
+      <span>
+        <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">GitHub</a> •
+        <a href="mailto:astroam3@gmail.com">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

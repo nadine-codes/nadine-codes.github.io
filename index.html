@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nadine | Web Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Nadine — front-end and web developer. Projects, skills, and contact information." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Nadine<span>.codes</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero / Bio ===== -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Nadine</h1>
+        <p class="lead">
+          I'm an aspiring web developer who loves turning ideas into clean,
+          responsive websites. With a growing toolkit in HTML, CSS, and
+          JavaScript, I enjoy building accessible, user-friendly experiences and
+          learning something new with every project. I'm detail-oriented,
+          curious, and motivated to keep improving my craft. When I'm not coding,
+          I'm exploring new design trends and sharpening my problem-solving
+          skills. I'm currently seeking opportunities to contribute to real-world
+          projects and grow alongside a collaborative team.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">View My Work</a>
+          <a href="contact.html" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <p class="muted" style="margin-top:22px;">
+          📧 <a href="mailto:astroam3@gmail.com">astroam3@gmail.com</a>
+          &nbsp;•&nbsp;
+          💻 <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">github.com/nadine-codes</a>
+        </p>
+      </div>
+      <img class="avatar" src="images/profile.jpeg" alt="Professional photo of Nadine" />
+    </div>
+  </header>
+
+  <!-- ===== Highlights ===== -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">What I Do</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>🎨 Front-End Development</h3>
+          <p class="muted">Building responsive, accessible interfaces with semantic HTML, modern CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>📱 Responsive Design</h3>
+          <p class="muted">Designing layouts that look great on phones, tablets, and desktops alike.</p>
+        </div>
+        <div class="card">
+          <h3>🔧 Version Control</h3>
+          <p class="muted">Using Git and GitHub to manage code, collaborate, and deploy live sites with GitHub Pages.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Call to action ===== -->
+  <section style="padding-top:0;">
+    <div class="container center">
+      <div class="card" style="padding:40px;">
+        <h2>Let's build something together</h2>
+        <p class="muted">Browse my projects or reach out — I'd love to hear about your ideas.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a href="projects.html" class="btn btn-primary">See Projects</a>
+          <a href="about.html" class="btn btn-ghost">More About Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Nadine. Built with HTML, CSS &amp; JavaScript.</span>
+      <span>
+        <a href="https://github.com/nadine-codes" target="_blank" rel="noopener">GitHub</a> •
+        <a href="mailto:astroam3@gmail.com">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
