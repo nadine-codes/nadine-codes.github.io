@@ -1,6 +1,6 @@
-# Nadine — Personal Portfolio
+# Nadine El-Sherif — Personal Portfolio
 
-A responsive personal portfolio website built with **HTML, CSS, and JavaScript** and deployed with **GitHub Pages**.
+Personal portfolio of **Nadine El-Sherif**, a HealthTech-focused Product Designer and Full-Stack Developer based in Miami, FL. A responsive multi-page website built with **HTML, CSS, and JavaScript** and deployed with **GitHub Pages**.
 
 🔗 **Live site:** https://nadine-codes.github.io
 
